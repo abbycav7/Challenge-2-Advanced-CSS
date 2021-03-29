@@ -1,55 +1,61 @@
+/* Variables */
+:root {
+    --background-color: rgb(118, 147, 129);
+    --hero-background-color: #f5f1e9;
+    --font-color:#fff;
+    --body-font-family: "Roboto", sans-serif;
+    --header-font-family: "Playfair Display", serif;
+}
+/* Page Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Global variable definitions */
-:root {
-  --header-footer-background-color: rgb(1, 99, 1);
-  --lightskyblue: lightskyblue;
-  --lightgray: lightgray;
-  --about-me-work-border: #333366;
-  --rgba-border-color-opacity: rgba(135, 206, 250, 0.8);
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    font-family: var(--body-font-family);
+    background: var(--background-color);
+    color: var(--font-color);
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+h1, h3 {
+    font-family: var(--header-font-family);
+}
+h1 {
+    font-size: 5vw;
+}
+h2 {
+    font-weight: bold;
+    font-size: 4vw;
+}
+h3 {
+    font-size: 3vw;
 }
 
-/* Start of Header code */
+/* Header Styles */
 header {
-    display: flex; 
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
     flex-wrap: wrap;
-    list-style: none;
-    background-color: var(--header-footer-background-color); 
-  }
-  
-  header h1 {
-    padding-left: 50px;
-  }
-  
-  header nav ul {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding-right: 0px;
-  }
-  
-  header nav ul li {
-    font-size: 1.8vw;
-    padding: 10px 15px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    
-  }
-  
-  /* Remove text anchor default decoreations and apply specific styles individulally*/
-  header a {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    text-decoration: none;
-    border-bottom: 2px solid var(--lightskyblue);
-    color: var(--lightskyblue);
-  }
-  /* End of header code */
+}
+header nav ul li a {
+    padding: 15px;
+}
