@@ -165,3 +165,112 @@ header nav ul li a {
     align-items: center;
     flex-wrap: wrap;
 }
+
+/* MEDIA QUERIES */
+/* Smaller Desktop Screens and Smaller */
+@media screen and (max-width: 980px) {
+    header h1 {
+        font-size:  48px;
+    }
+    header nav {
+        padding-top: 10px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    body {
+        font-size: 16px;
+    }
+}
+/* Tablets and Smaller */
+  @media screen and (max-width: 768px) {
+    header {
+        position: relative;
+    }
+    header h1 {
+        font-size: 36px;
+    }
+    .hero {
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-subtitle h2 {
+        font-size: 32px;
+    }
+    .information {
+        margin: 24px auto;
+    }
+    .information-article {
+        flex-direction: column;
+    }
+    .information-header {
+        text-align: left;
+        border-bottom: 1px solid;
+        margin: 10px 0px;
+    }
+    .information-body {
+        border-left: 0px;
+        justify-content: space-around;
+    }
+    .project-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+    }
+    .project a img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+        opacity: 1;
+    }
+    .horiseon {
+        grid-column: 1/ span 1;
+    }
+    .project-title {
+        width: 25%;
+    }
+}
+/* Mobile Phones and Smaller */
+@media screen and (max-width: 575px) {
+    header {
+        justify-content: center;
+        position: relative;
+    }
+    header nav ul li a  {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .hero {
+        height: 150px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .information {
+        margin: 20px auto;
+    }
+    .information-article {
+        padding-bottom: 10px;
+    }
+    .information-header, .information-body {
+        padding: 0px 10px;
+    }
+    .contact-me-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project a img {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .project-title {
+        width: 50%;
+    }
+}
+
