@@ -10,7 +10,7 @@ Overall this was a fun project, and it showed me how fun, and relatively simple,
 
 ## Site Location
 
-[Site Location]()
+[Site Location](https://abbycav7.github.io/Challenge-2-Advanced-CSS/.)
 
 ## Site Image
 ![Site Image]()
