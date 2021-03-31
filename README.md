@@ -13,7 +13,7 @@ Overall this was a fun project, and it showed me how fun, and relatively simple,
 [Site Location](https://abbycav7.github.io/Challenge-2-Advanced-CSS/.)
 
 ## Site Image
-![Screenshot](screenshot1.png)
-![Screenshot] (screenshot2.png)
-![Screenshot] (screenshot3.png)
-![Screenshot] (screenshot4.png)
+![alt tag](./assets/image/screenshot1.png)
+![alt tag](./path/to/image.png)
+![alt tag](./path/to/image.png)
+![alt tag](./path/to/image.png)
