@@ -17,4 +17,3 @@ Overall this was a fun project, and it showed me how fun, and relatively simple,
 ![Site Image](./assets/css/images/screenshot2.png)
 ![Site Image](./assets/css/images/screenshot3.png)
 ![Site Image](./assets/css/images/screenshot4.png)
-
